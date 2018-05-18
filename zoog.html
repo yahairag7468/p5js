@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+    
+    <script>
+        function setup() {
+            createCanvas(800,600);
+            background("magenta")
+            //head
+          ellipse(400,240,320);
+          //body
+          stroke("red")
+          strokeWeight(3)
+          line(400,400,400,500)
+          stroke("black")
+          //nose
+          fill("red")
+          point(400,240)
+          //eyes
+          fill(0,0,0)
+          ellipse(320,220,80)
+          fill(0,0,0)
+          ellipse(480,220,80)
+          fill(0,0,0)           
+          //hat
+          rect(200,110,400,55)
+          rect(240,60,320,66)
+        //text
+        textSize(20)
+        text("coding is hard",100,200)
+        
+       
+          
+          
+          
+          
+         
+        }
+
+        function draw() {
+           
+           
+          
+            
+            
+        }
+    </script>
+</head>
+
+ 
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/yahairag7468/p5js/blob/master/zoog.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
